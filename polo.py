@@ -6,7 +6,6 @@ import datetime
 from dotenv import load_dotenv
 import fb
 
-
 load_dotenv()
 token = os.environ.get('access-code')
 
@@ -34,7 +33,6 @@ def upload_to_arena(img_url, descrip):
 	headers = {'Authorization': 'BEARER ' + token}
 	payload = {'title': 'Polo Log', 'description': descrip, 'source': img_url}
 	polo = requests.post(my_url, data=payload, headers=headers)
-
 
 name = random_string()
 url = upload_image(name)
