@@ -1,0 +1,9 @@
+.DS_Store
+.env
+/bin
+/include
+/lib
+/share
+pyvenv.cfg
+fb.py
+__pycache__
