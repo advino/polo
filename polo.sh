@@ -5,14 +5,14 @@ cd ~/polo
 echo Polo is logging
 source bin/activate
 
-raspistill -o ~/polo/photos/image.jpg
+raspistill -o ~/Desktop/polo/photos/image.jpg
 
-python3 /home/pi/polo/polo.py
+python3 /home/pi/Desktop/polo/polo.py
 
 echo Polo has logged image
 echo Deleting image
 
-rm ~/polo/photos/image.jpg
+rm ~/Desktop/polo/photos/image.jpg
 
 deactivate
 
